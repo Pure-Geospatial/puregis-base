@@ -15,10 +15,10 @@
     - Publish a coding style guide
     - Answer basic questions (FAQ)
 2. Early Development Libraries (Alpha)
-    - Write instructions for buidling and using PureGIS libraries.
-    - Lay the groundwork for implementation GIS concepts.
+    - Write instructions for building and using PureGIS libraries.
+    - Lay the groundwork for implementation of GIS concepts.
     - Define core types, including geometries.
-    - Integrate georeferencing with Cartographic Reference Systems, Geographic Coordinate Systems, and Datums.
+    - Integrate georeferencing with Coordinate Reference Systems, Geographic Coordinate Systems, and Datums.
     - Define a sample of Mercator (cylindrical), conic, and azimuth projections.
     - Design a reprojection tool.
     - Implement a minimum set of I/O standards from those set by the Open Geospatial Consortium (OGC).
@@ -59,6 +59,7 @@
         * CLI has access to utilities from installed packages
         * GUI likewise; UI is composed of a modular layout and atomic elements making use of QML for configuration.
     - Features a toolset of fundamental GIS utilities that could be used throughout a GIS Fundamentals course.
+    - Work with multidimensional features.
     - A long release cycle that continuously works on these objectives:
         * Foster a team of contributors.
         * Focus on incorporating an increasing number of open standards.
